@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/getStarted.css">
+<link rel="stylesheet" href="../css/firstlook2.css">
+<script src="../js/searchText.js"></script>
+<script src="../js/imageSlide.js"></script>
+
+<link rel="stylesheet" href="../css/newlog.css">
+</head>
+<body>
+
+<div id="logo">
+<img src="../images/logo1.png" width= "200" height="80">
+</div>
+
+ <div class="dropdown" >
+  <button class="dropbtn">Location</button>
+   <div class="dropdown-content" id="city">
+    <a href="pune.html">Pune</a>
+    <a href="mumbai.html">Mumbai</a>
+    <a href="nagpur.html">Nagpur</a>
+  </div>
+</div>
+
+
+<input type="text" id="search" placeholder="Search..."><select id="sel"></select>
+<input type="button" id="searchbtn" value="Search" onclick="sort()">
+<input type="button" id="add" value="Add to Cart"><br>
+<input type="button" id="myBtn" value="Post free Ad">
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+      <p>
+      
+      <div class="myCls" >
+Name <input type="text" id="name" placeholder="Name">
+<br><br>
+Categories
+ <select  id="cat">
+    <option value="volvo" id="cat"></option>
+    <option value="Mobiles" id="cat">Mobiles</option>
+    <option value="Books" id="cat">Books</option>
+    <option value="Furniture" id="cat">Furniture</option>
+    <option value="Cars" id="cat">Cars</option>
+    <option value="audi" id="cat">Bikes</option>
+    <option value="volvo" id="cat">Homes</option>
+  </select>
+
+
+<br><br>
+Price<input type="number" id="price" placeholder="Price"><br>
+Mobile No.<input type="text" id="mob" placeholder="Mobile" required>
+<br>
+<input type="button" value="Result"onclick="post()" />
+</div>
+            
+            
+            
+            </p>
+  </div>
+
+</div>
+<br><br>
+<div id="output">
+
+<div class="cat">
+  <img class="mySlides" src="../images/8.jpg" width="1365" height="150">
+  <img class="mySlides" src="../images/6.jpg" width="1365" height="150">
+  <img class="mySlides" src="../images/3.jpg" width="1365" height="150">
+  <img class="mySlides" src="../images/14.jpg" width="1365" height="150">
+   <img class="mySlides" src="../images/15.jpg" width="1365" height="150">
+   <img class="mySlides" src="../images/16.jpg" width="1365" height="150">
+   <img class="mySlides" src="../images/9.png" width="1365" height="150">
+   <img class="mySlides" src="../images/11.jpg" width="1365" height="150">
+</div>
+
+<div class="cont">
+<br><br><br>
+<div class="third"> <p id="text"> Mobiles</p></div>
+<div class="second"><p id="text"> Furniture</p></div>
+<div class="fourth"><p id="text"> Books</p></div>
+<div class="last "><p id="text"> Cars</p></div>
+<div class="last"><p id="text"> Bikes</p></div>
+<div class="last"><p id="text"> Homes</p></div>
+
+</div>
+</div>
+
+
+
+
+
+​
+<script>
+var myIndex = 0;
+slideImage();
+fillarray();
+</script>
+
+
+
+<footer>
+
+<div class="footer">
+
+<small>Copyright @ Mokart.com</small></div></footer>
+<script src="../js/login.js"></script>
+<script src="../js/post.js"></script>
+</body>
+</html>

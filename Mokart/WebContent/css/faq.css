@@ -1,0 +1,20 @@
+.fac
+{
+	color: blue;
+	text-align: center;
+}
+.alin{
+	border :1px solid black;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
+	background-color:white;
+}
+p.q
+{
+	font-weight: bold;
+}
+p{
+	padding-left: 40px;
+	padding-right: 40px;
+}

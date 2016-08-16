@@ -1,0 +1,36 @@
+form
+{
+	background-color:#E59866;
+	border: 1px solid;
+	width: 40%;
+	height:auto;
+	margin-left: 20%;
+	margin-right: 15%;
+	padding: 20dp;
+}
+input
+{
+	margin-right:20dp;
+	padding-bottom: 10dp;
+	padding-right: 10%;
+	padding-top: 30dp;
+	width: 20%;
+	margin-top: 20dp;
+	 
+}
+p{
+	color: blue;
+	margin-left: 10%
+
+}
+body{
+	background-color: #566573;
+}
+#form1
+{
+	padding-top: 20dp;
+}
+#pad
+{
+	padding-top: 20dp;
+}

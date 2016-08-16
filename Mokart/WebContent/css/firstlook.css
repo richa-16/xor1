@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+
+#imgs{
+	position: absolute; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0; 
+    top: 100px; 
+    width: 100%; 
+    height: 50%; 
+    
+}
+
+#logo{
+	float:left;
+	
+}
+
+#back{
+	opacity: 0.8;
+}
+
+header, footer {
+    padding: 1em;
+    color: black;
+    background-color: white;
+    cleard: left;
+    
+}
+.hea{
+	width:100%;
+	height:200px
+    
+    margin: 10px;
+  
+}
+
+#id li{
+	display:inline;	
+	padding: 20px;
+}
+
+
+div.inline { 
+	float:right;
+	font-size:12pt;
+    font-weight: bold;
+    text-align: right;
+    border-radius: 8px;
+	color:#23238e;
+	padding: 8px;
+ }
+
+a{
+	
+	
+font-family: 'Copperplate / Copperplate Gothic Light', sans-serif;
+	 text-decoration: none;
+	
+}
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #476B78;
+  text-align: center;
+}
+
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<link rel="stylesheet" href="../css/lo.css">
+
+<body>
+
+<button id="myBtn">sign in</button>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span id="close"  >x</span>
+    <img src="../images/con_user.jpg"><br>
+      <input type="text" id="id" placeholder="Enter your Email " required><br><br>
+		 <input type="password" id="pwd" placeholder="Password" required><br><br>
+		 <input type="button" onclick="myfunc()" value="Login"/><br><br>
+         <span>Forgot password </span>
+         <span id="n_mod">New user</span>
+         
+  </div>
+</div>       
+         
+<div id="nmod" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span id="close">x</span>
+		<form action=" " name="myform">
+		<h2>Registeration Form<h2>
+			<input type="text" placeholder="Email" id="mail"><br><br>
+			<input type="number" placeholder="Mobile Number"><br><br>
+			<input type="password" placeholder="Password"><br><br>
+			<input type="button" value="Submit" onclick="func()">
+		</form>  
+  </div>
+</div>     
+
+  
+     
+<script src="../js/lo.js"></script>
+</body>
+</html>
+

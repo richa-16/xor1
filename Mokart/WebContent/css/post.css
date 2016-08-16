@@ -1,0 +1,16 @@
+.mycls
+{
+	border: 1px solid black;
+	margin-left: 20%;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+	color: blue;
+	width:50%;
+	margin-top: 20%
+	
+}
+body
+{
+	background-color: #626567  
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<link rel="stylesheet" href="../css/newlog.css">
+
+<body>
+<button id="myBtn">sign in</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+      <p>
+      
+      <div class="myCls" >
+name:<input type="text" id="name" placeholder="Name">
+<br><br>
+Categories:
+ <select  id="cat">
+    <option value="volvo" id="cat"></option>
+    <option value="Mobiles" id="cat">Mobiles</option>
+    <option value="Books" id="cat">Books</option>
+    <option value="Furniture" id="cat">Furniture</option>
+    <option value="Cars" id="cat">Cars</option>
+    <option value="audi" id="cat">Bikes</option>
+    <option value="volvo" id="cat">Homes</option>
+  </select>
+
+
+<br><br>
+price<input type="number" id="price" placeholder="Price"><br>
+mob:<input type="text" id="mob" placeholder="Mobile" required>
+<br>
+<input type="button" value="Result"onclick="post()" />
+</div>
+            
+            
+            
+            </p>
+  </div>
+
+</div>
+<script src="../js/login.js"></script>
+<script src="../js/post.js"></script>
+</body>
+</html>
+
