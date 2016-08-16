@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+/*GROW*/
+.grow img {
+  height: 200px;
+  width: 200px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 300px;
+  height: 300px;
+}
+.grow figcaption
+{
+	color: blue;
+	margin-left: 10%
+}
+
+.pad{
+	padding-top: 15px;
+	padding-right: 15px;
+	color: white;
+}
+
+.btpad{
+	padding-top: 10px;
+	padding-right: 15px;
+	color: white;
+}
+
+.bpad{
+	padding-top: 5px;
+	padding-right: 15px;
+	color: white;
+}
